@@ -1,0 +1,16 @@
+<%- include('partials/header') -%>
+<div class="compose-blog">
+  <h1>Edit post</h1>
+  <form action="/posts/<%= postObj._id %>/edit" method="post">
+    <div class="form-group">
+      <label for="title">Title</label>
+      <input value="<%= postObj.title %>" type="text" id="title" name="postTitle" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="post"> Post </label>
+      <textarea id="post" name="postBody" class="form-control" rows="8"><%= postObj.content %></textarea>
+    </div>
+    <button class="compose-submit-btn" type="submit" name="button">Update Post</button>
+  </form>
+</div>
+<%- include('partials/footer') -%>

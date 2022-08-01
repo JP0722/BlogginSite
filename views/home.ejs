@@ -1,0 +1,10 @@
+<%- include('partials/header') -%>
+  <a href="/compose" class="compose-link"> Compose new blog</a>
+  <% postsArray.forEach(function(item){ %>
+    <div class="blogs-main">
+      <h1><%=  item.title %></h1>
+      <p> <%=  item.content %> </p>
+      <span> <a href="/posts/<%= item._id %>">Read More</a></span>
+    </div>
+  <% }) %>
+<%- include('partials/footer') -%>

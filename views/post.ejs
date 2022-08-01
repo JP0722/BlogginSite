@@ -1,0 +1,14 @@
+<%- include('partials/header') -%>
+<div class="blog-post-content">
+  <h1> <%= postObj.title %></h1>
+  <hr>
+  <p> <%= postObj.content %> </p>
+</div>
+<div class="blog-post-bottom">
+  <a class="post-edit-btn" href="/posts/<%= postObj._id %>/edit"> Edit this blog </a>
+  <a class="post-delete-btn" href="/posts/<%= postObj._id %>/delete"> Delete this blog </a>
+  <br>
+  <br>
+  <p style="margin:5px"> Written by <b> <%= postObj.username %></b></p>
+</div>
+<%- include('partials/footer') -%>

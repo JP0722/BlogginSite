@@ -1,0 +1,150 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.compose-link{
+  padding: 10px;
+  border: 2px solid #42f5e3;
+  position: absolute;
+  text-decoration: none;
+  color:#000f0e;
+  right: 5%;
+  font-style: oblique;
+}
+.compose-link:hover{
+  background-color: #42f5e3;
+  color: white;
+}
+
+.compose-blog {
+  background-color: #42f5e3;
+  padding: 30px;
+}
+
+.compose-submit-btn {
+  background-color: #000000;
+  padding: 5px;
+  border-radius: 5px;
+  color:#ffffff;
+  font-size: 2rem;
+}
+
+.blogs-main {
+  background-color: #42f5e3;
+  padding: 20px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  width: 75%;
+}
+.blogs-main p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 75%;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+  background-color: #010a09;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
+
+.blog-post-content{
+  height: 30em;
+  overflow-y:auto;
+}
+
+.landing-main{
+  text-align: center;
+  margin-top: 10%;
+}
+
+.login-div{
+  text-align: center;
+  margin-top: 10%;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.landing-main a{
+  text-decoration: none;
+  font-size: 1.7em;
+  margin: 5px;
+  padding: 5px;
+  color: #091929;
+  background-color: #d5e0eb;
+}
+.landing-main a:hover{
+  background-color: #091929;
+  color: #d5e0eb;
+}
+
+#username-info{
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+.blog-post-bottom{
+  margin-top: 20px;
+}
+.blog-post-bottom a{
+  padding: 10px;
+  border: 2px solid #42f5e3;
+  text-decoration: none;
+  color:#000f0e;
+  margin: 5px;
+  font-style: oblique;
+}
+.blog-post-bottom a:hover{
+  background-color: #42f5e3;
+  color: white;
+}
+
+.blog-post-bottom a.post-delete-btn{
+  color: #ff8080;
+  border: 2px solid  #ff8080;
+}
+.blog-post-bottom a.post-delete-btn:hover{
+  background-color:  #ff8080;
+  color: white;
+}
+.login-header, .register-header{
+  background-color: 	#080808;
+  padding: 15px;
+  color: #F5F5F5;
+}
+
+.form-sbmt-btn{
+  margin-top: 6px;
+}
